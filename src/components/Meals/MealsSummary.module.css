@@ -9,7 +9,13 @@
 
 .summary h2 {
   font-size: 3rem;
-  margin-bottom: 2em;
+  padding-left: 1em;
+}
+
+.title {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 6rem;
 }
 
 .summary p {

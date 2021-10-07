@@ -1,7 +1,7 @@
 .card {
   max-width: 800px;
   padding: 2rem;
-  margin: 2rem auto;
+  margin: 4rem auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   align-content: center;

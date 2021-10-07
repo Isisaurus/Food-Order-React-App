@@ -25,6 +25,7 @@
   grid-template-rows: minmax(50rem, 80vh);
   align-items: center;
   background-color: #ce2828;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .banner-img {
