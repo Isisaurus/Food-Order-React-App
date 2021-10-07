@@ -1,0 +1,11 @@
+.summary {
+  font-size: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
+
+.summary h2 {
+  font-size: 3rem;
+}
