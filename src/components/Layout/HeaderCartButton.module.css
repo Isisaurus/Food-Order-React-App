@@ -9,13 +9,14 @@
   font-weight: bold;
   font-size: 2rem;
   color: #333;
-  background-color: rgba(256, 256, 256, 0.85);
+  background-color: rgba(256, 256, 256, 1);
   transition: all 0.2s ease-in;
+  border-radius: 3rem;
 }
 
 .button:hover {
   transition: all 0.2s ease-out;
-  background-color: rgba(256, 256, 256, 1);
+  background-color: rgba(256, 256, 256, 0.8);
 }
 
 .icon {
