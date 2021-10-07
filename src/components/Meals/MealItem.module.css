@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f5eee4;
+  color: #f5eee4;
+  padding: 1rem 2rem;
+  transition: all 0.2s ease-out;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.233);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #f5eee4;
+  padding-bottom: 0.5em;
+}
+
+.img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-weight: 200;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  align-self: flex-end;
+}
