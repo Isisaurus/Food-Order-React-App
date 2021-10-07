@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import banner from "./../../assets/meals.jpg";
 import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
+import MealsSummary from "./../Meals/MealsSummary";
 
 const Header = (props) => {
   return (
@@ -11,11 +11,8 @@ const Header = (props) => {
         <HeaderCartButton />
       </header>
       <div className={classes.banner}>
-        <img
-          src={banner}
-          alt="Pizzas on a table"
-          className={classes["banner-img"]}
-        />
+        <MealsSummary />
+        <div className={classes["banner-img"]}></div>
       </div>
     </Fragment>
   );
