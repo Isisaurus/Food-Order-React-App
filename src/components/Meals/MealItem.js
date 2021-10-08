@@ -7,11 +7,13 @@ const Mealitem = (props) => {
 
   return (
     <article className={classes.item}>
-      <h3 className={classes.title}>{props.name}</h3>
-      <img className={classes.img} src={props.image} alt={props.name} />
-      <div className={classes.content}>
-        <p className={classes.description}>{props.description}</p>
-        <p className={classes.price}>{price}</p>
+      <div className={classes["item-content"]}>
+        <h3 className={classes.title}>{props.name}</h3>
+        <img className={classes.img} src={props.image} alt={props.name} />
+        <div className={classes.content}>
+          <p className={classes.description}>{props.description}</p>
+          <p className={classes.price}>{price}</p>
+        </div>
       </div>
       <MealItemForm id={props.id} />
     </article>

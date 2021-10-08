@@ -1,0 +1,26 @@
+.input-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+.input {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+
+  padding: 0.25em;
+}
+
+.input:focus {
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.label {
+  padding: 0.25em;
+  letter-spacing: 0.05em;
+  cursor: text;
+}
