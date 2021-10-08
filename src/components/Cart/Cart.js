@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "../UI/Modal";
 import classes from "./Cart.module.css";
 
-const Cart = () => {
+const Cart = (props) => {
   const itemsArr = [{ id: "c1", name: "sushi", amount: 2, price: "12.99" }];
   const cartItems = (
     <ul className={classes["cart-items"]}>
@@ -19,7 +19,9 @@ const Cart = () => {
         <span>35.62</span>
       </div>
       <div className={classes.actions}>
-        <button className={classes["btn--alt"]}>Close</button>
+        <button className={classes["btn--alt"]} onClick={props.onHideCard}>
+          Close
+        </button>
         <button className={classes.order}>Order</button>
       </div>
     </Modal>
